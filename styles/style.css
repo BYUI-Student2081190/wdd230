@@ -1,0 +1,81 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Slab:wght@100&display=swap');
+
+/*Code for the header*/
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+    background-color: coral;
+    border-radius: 5em;
+    align-items: center;
+    border: 5px solid black;
+    box-shadow: 7px 7px 9px 0px grey;
+}
+
+#titlepic{
+    border: 3px solid black;
+    margin-left: 150px;
+    width: 150px;
+    height: 225px;
+    grid-column: 1/2;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-shadow: 10px 10px 11px grey;
+    grid-column: 2/3;
+    font-family: "Raleway", "sans-serif";
+}
+
+/*Code for the h2 element*/
+h2 {
+    font-size: 45px;
+    text-shadow: 13px 3px 14px black;
+    margin-left: 50px;
+    font-family: "Raleway", "sans-serif";
+}
+
+/*Code for the links and main section of the home page*/
+
+.navigation_titles{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-family: "Roboto+Slab", "sans-serif";
+}
+
+.navigation_titles p{
+    font-size: 30px;
+    margin-left: 3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Footer code*/
+footer{
+    margin-top: 150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: coral;
+    border-radius: 5em;
+    align-items: center;
+    border: 5px solid black;
+    box-shadow: 7px 7px 9px 0px grey;
+    text-align: center;
+    font-family: "Raleway", "sans-serif";
+}
+
+footer p{
+    font-size: 24px;
+    color: white;
+    text-shadow: 10px 10px 11px grey;
+}
+
+h3{
+    font-size: 24px;
+    color: white;
+    text-shadow: 10px 10px 11px grey;
+}
