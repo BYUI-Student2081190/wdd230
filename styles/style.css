@@ -1,6 +1,5 @@
 /*Import fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Slab:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap');
 /*Code for the header*/
 header{
     display: grid;
@@ -26,7 +25,7 @@ h1{
     font-size: 50px;
     text-shadow: 10px 10px 11px grey;
     grid-column: 2/3;
-    font-family: "Raleway", "sans-serif";
+    font-family: 'Raleway', sans-serif;
 }
 
 /*Code for the h2 element*/
@@ -34,7 +33,7 @@ h2 {
     font-size: 45px;
     text-shadow: 13px 3px 14px black;
     margin-left: 50px;
-    font-family: "Raleway", "sans-serif";
+    font-family: 'Raleway', sans-serif;
 }
 
 /*Code for the links and main section of the home page*/
@@ -42,7 +41,7 @@ h2 {
 .navigation_titles{
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    font-family: "Roboto+Slab", "sans-serif";
+    font-family: 'Roboto Slab', serif;
 }
 
 .navigation_titles p{
@@ -65,7 +64,7 @@ footer{
     border: 5px solid black;
     box-shadow: 7px 7px 9px 0px grey;
     text-align: center;
-    font-family: "Raleway", "sans-serif";
+    font-family: 'Raleway', sans-serif;
 }
 
 footer p{
