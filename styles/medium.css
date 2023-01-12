@@ -1,0 +1,27 @@
+/*Add Screen effects.*/
+@media only screen and (min-width: 32.5em){
+    /*Code for the header medium and large*/
+    #titlepic{
+        margin-left: 150px;
+        width: 150px;
+        height: 225px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    /*Code for main section*/
+    .navigation_titles p{
+        margin-left: 3em;
+    }
+
+    /*Code for footer section.*/
+    footer p{
+        font-size: 24px;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+}

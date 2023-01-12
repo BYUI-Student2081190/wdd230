@@ -1,5 +1,11 @@
 /*Import fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap');
+/*Added code to the body to make it
+stretch the whole screen.*/
+body{
+    width: 100%;
+}
+
 /*Code for the header*/
 header{
     display: grid;
@@ -14,15 +20,15 @@ header{
 
 #titlepic{
     border: 3px solid black;
-    margin-left: 150px;
-    width: 150px;
-    height: 225px;
+    margin-left: 35px;
+    width: 95px;
+    height: 150px;
     grid-column: 1/2;
 }
 
 h1{
     color: white;
-    font-size: 50px;
+    font-size: 1.8em;
     text-shadow: 10px 10px 11px grey;
     grid-column: 2/3;
     font-family: 'Raleway', sans-serif;
@@ -46,7 +52,7 @@ h2 {
 
 .navigation_titles p{
     font-size: 30px;
-    margin-left: 3em;
+    margin-left: 0.5em;
 }
 
 a{
@@ -68,13 +74,13 @@ footer{
 }
 
 footer p{
-    font-size: 24px;
+    font-size: 1em;
     color: white;
     text-shadow: 10px 10px 11px grey;
 }
 
 h3{
-    font-size: 24px;
+    font-size: 1em;
     color: white;
     text-shadow: 10px 10px 11px grey;
 }
