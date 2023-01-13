@@ -1,0 +1,138 @@
+/*Small screen*/
+/*Build everything for a large screen first, then work back.*/
+/*Whole Page Elements*/
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Sofia+Sans+Condensed&display=swap');
+
+/*Header Code*/
+header{
+    display: grid;
+    background-color: rgb(15 54 75);
+    text-align: center;
+    align-content: center;
+}
+
+h1{
+    color: #fdf6f6;
+    font-size: 3.5em;
+    margin-bottom: 0;
+    font-family: 'Crimson Text', sans-serif, serif;
+}
+
+h2{
+    color: #fdf6f6;
+    font-size: 2.6em;
+    margin-top: 0.7em;
+    font-family: 'Crimson Text', sans-serif, serif;
+}
+
+/*Middle Section Code*/
+section.middleSection{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+img{
+    width: 195px;
+    height: 422px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+h5{
+    font-size: 2em;
+    color:#fdf6f6;
+    background-color: rgb(29, 82, 111);
+    margin-top: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    font-family: 'Crimson Text', sans-serif, serif;
+}
+
+p{
+    margin: 0;
+    font-size: 1.2em;
+    color:rgb(58, 58, 58);
+    font-family: 'Sofia Sans Condensed', sans-serif, serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a{
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+p.wordsBelowPic{
+    margin-top: 5px;
+}
+
+/*Individual Sections of code*/
+section#pokemonSection{
+    display: grid;
+    border: 2px solid rgb(117, 116, 116);
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(231, 232, 233);
+}
+
+
+section#guildwarsSection{
+    display: grid;
+    border: 2px solid rgb(117, 116, 116);
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(231, 232, 233);
+}
+
+section#nintendoSection{
+    display: grid;
+    border: 2px solid rgb(117, 116, 116);
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(231, 232, 233);
+}
+
+/*Footer Code*/
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 20px;
+    text-align: center;
+    background-color: rgb(15 54 75);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: #fdf6f6;
+    font-size: 1em;
+    font-family: 'Crimson Text', sans-serif, serif;
+    margin: 0px;
+}
+
+h4{
+    color: #fdf6f6;
+    font-size: 1em;
+    font-family: 'Crimson Text', sans-serif, serif;
+    margin: 0px;
+}

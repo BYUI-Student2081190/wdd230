@@ -1,0 +1,35 @@
+/*For Large Screen*/
+@media screen and (min-width: 855px) {
+    
+    /*Middle Section Code*/
+    section.middleSection{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+   }
+
+   section#nintendoSection{
+       grid-column: 3/4;
+    }
+
+    section#nintendoSection img{
+        width: 195px;
+        height: 422px;
+   }
+   
+   /*Footer Code*/
+    footer{
+        display: flex;
+    }
+
+    h3{
+        margin: auto;
+        margin-right: 5px;
+    }
+    
+    h4{
+        margin: auto;
+        margin-left: 0;
+    }
+    
+} 
