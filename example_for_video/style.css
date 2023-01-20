@@ -1,0 +1,28 @@
+/*Style sheet for example*/
+body{
+    margin: 0;
+}
+
+header{
+    border-bottom: 5px solid black;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(25, 64, 255);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 10px;
+}
+
+p{
+    font-size: 12px;
+}
+
+#Big{
+    font-size: 35px;
+}

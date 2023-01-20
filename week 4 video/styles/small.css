@@ -1,0 +1,67 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap');
+/*How to call the fonts:
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Roboto Slab', serif;
+
+*/
+
+h1{
+    color: #ffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    color: #ffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+
+header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(175, 77, 7);
+}
+
+header h1,
+header h2{
+    margin-left: 15px;
+}
+
+main{
+    display: grid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-content: center;
+}
+
+video{
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 240px;
+}
+
+footer{
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(175, 77, 7);
+    align-content:center;
+}
+
+footer h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p{
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
