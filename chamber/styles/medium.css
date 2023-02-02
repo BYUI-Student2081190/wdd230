@@ -25,11 +25,17 @@
 
     #socialMedia{
         margin-left: auto;
+        margin-right: 35px;
+    }
+
+    nav{
+        margin-left: 2vw;
     }
 
     nav ul li a{
         margin: 0;
         margin-top: 10px;
+        margin-bottom: 15px;
         padding: 15px;
         padding-right: 30vw;
     }
@@ -51,6 +57,14 @@
             margin: 15px;
             width: 95%;
             height: 50%;
+        }
+
+        .home div p{
+            font-size: 17px;
+        }
+
+        .home div a{
+            font-size: 17px;
         }
     
         #event{
@@ -84,12 +98,17 @@
             display: flex;
             margin: 0;
             margin: 25px;
+            padding: 0;
+            padding-top: 55px;
+            padding-bottom: 55px;
             align-content: center;
             align-items: center;
         }
         
         #spotlight div{
             width: 90%;
-            height: 150px;
+            height: 210px;
+            margin-bottom: 0px;
+            margin: 15px;
         }
 }

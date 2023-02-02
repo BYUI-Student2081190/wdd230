@@ -37,3 +37,26 @@ const today = `${headDay}, ${headDate} ${wordMonth} ${headYear}`;
 
 //Put into words
 document.querySelector("#headerDate").innerText = today;
+
+//Come Join us Tag
+const comeJoinUsTop = document.querySelector("#comeJoinUsHeader");
+const dayNum = currentTime.getDay();
+//Test versions of dayNum
+//const dayNum = 1;
+//const dayNum = 2;
+
+function testDay(day){
+    if (day === 1 || day === 2 ){
+        let words = document.createElement("h2");
+
+        words.innerText = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+
+        comeJoinUsTop.appendChild(words);
+    }
+
+    else{
+        comeJoinUsTop.remove();
+    }
+};
+
+testDay(dayNum);

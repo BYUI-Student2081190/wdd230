@@ -1,4 +1,4 @@
-@media screen and (min-width: 1351px){
+@media screen and (min-width: 1482px){
     /*For large screens*/
     header{
         display: grid;
@@ -30,6 +30,10 @@
         display: none;
     }
 
+    nav{
+        margin-left: 0px;
+    }
+
     nav ul#navigation{
         display: flex;
     }
@@ -49,6 +53,12 @@
         font-size: 40px;
         border: 0;
         text-align: center;
+    }
+
+    nav ul li.active a{
+        border-top: 2px solid #e6e449;
+        color: #ffff;
+        background-color:#5f79c8;
     }
 
     nav ul li a:hover{
@@ -99,12 +109,10 @@
     }
 
     .home div{
-        background-color: #d1d1d1;
         margin: 0;
         margin: 15px;
         width: 95%;
         height: 95%;
-        border: 2px solid #3c3f48;
     }
 
     #event{
@@ -138,6 +146,8 @@
         display: grid;
         margin: 0;
         margin: 25px;
+        padding: 0;
+        padding-top: 15px;
         align-content: center;
         align-items: center;
     }
@@ -145,6 +155,10 @@
     #spotlight div{
         width: 225px;
         height: 225px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
     }
 
     #spotlight3{

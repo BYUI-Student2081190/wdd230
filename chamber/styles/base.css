@@ -33,6 +33,19 @@ p{
     color: #3c3f48;
 }
 
+/*For div boxes on home*/
+h4{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #e6e449;
+    text-shadow: 5px -5px 13px #3d3d2c;
+}
+
+/*Come meet section*/
+#comeJoinUsHeader{
+    text-align: center;
+}
+
 /*Header*/
 header{
     display: grid;
@@ -117,12 +130,18 @@ nav ul li a{
     text-decoration: none;
 }
 
+nav ul li.active a{
+    color: #3a4b7c;
+    background-color:#ffff;
+}
+
 nav ul li a:hover{
     border: 0;
     color: #3a4b7c;
     border-top: 1px solid #ffff;
     background-color:#ffff;
 }
+
 /*Hamburger*/
 button{
     display: block;
@@ -224,7 +243,7 @@ footer h2{
 }
 
 .home div{
-    background-color: #d1d1d1;
+    background-color: #4b99c7;
     width: 15em;
     height: 200px;
     align-self: center;
@@ -233,24 +252,94 @@ footer h2{
     border: 2px solid #3c3f48;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    box-shadow: -2px -4px 10px 0px #222020;
+}
+
+.home div p{
+    color: #ffff;
+    font-size: 13px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.home div h3{
+    color: white;
+}
+
+.home div a{
+    color:#e6e449;
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    margin-left: 0.5vw;
+    text-decoration: none;
+}
+
+#join a{
+    background-color:#773c87;
+    color: #ffff;
+    border: 2px solid #3c3f48;
+    border-radius: 2em;
+    padding: 25px;
+    margin: 0;
+    box-shadow: 6px 9px 10px 0px #3c3f48;
+}
+
+#join a:hover{
+    color: #773c87;
+    background-color: #ffff;
+}
+
+#join p{
+    margin-top: 60px;
 }
 
 #spotlight{
-    background-color: #d1d1d1;
+    background-color: #4690ba;
     display: grid;
-    margin: 25px;
-    margin-right: 50px;
+    margin: 9px;
     border: 2px solid #3c3f48;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 29px;
+    padding-bottom: 241px;
 }
 
 #spotlight div{
-    width: 12em;
-    height: 100px;
+    width: 13em;
+    height: 206px;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#spotlight div img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#spotlight div p{
+    font-size: 12px;
+    margin: 5px;
+    font-style: italic;
+}
+
+#spotlight div a{
+    font-size: 10px;
+    margin: 0px;
+}
+
+#spotlight div section{
+    border-top: 1px solid #ffff;
+}
+
+#spotlight div section p{
+    font-size: 10px;
+    margin: 0;
+    margin-top: 5px;
+    font-style: normal;
 }
 
 #spotlight3{
