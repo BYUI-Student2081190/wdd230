@@ -275,6 +275,35 @@ footer h2{
     text-decoration: none;
 }
 
+#hero{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 7em;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero img{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5em;
+    border: 2px solid #3c3f48;
+}
+
+#news {
+    padding: 0;
+}
+
+#weather{
+    padding: 0;
+    padding-bottom: 10em;
+}
+
+#weather section{
+    border-top: 2px solid #ffff;
+}
+
 #join a{
     background-color:#773c87;
     color: #ffff;
@@ -315,8 +344,6 @@ footer h2{
 }
 
 #spotlight div img{
-    width: 50px;
-    height: 50px;
     margin-bottom: 10px;
 }
 

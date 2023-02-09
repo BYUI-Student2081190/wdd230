@@ -56,7 +56,17 @@
     <!--Main-->
     <main class="home">
 
-        <div id="hero">Hero with site name and Call to Action</div>
+        <div id="hero">
+            <h4>Welcome to the Valley of Jordan!</h4>
+
+            <picture>
+                <source srcset="images/valley_of_jordan_large700.jpg" media="(min-width: 1482px)">
+                <source srcset="images/valley_of_jordan_medium600.jpg" media="(min-width: 600px)">
+
+                <img src="images/valley_of_jordan_small200.jpg" alt="Salt Lake Valley">
+                <p>Image of Salt Lake Valley from Canva</p>
+            </picture>
+        </div>
         
         <div id="event">
             <h4>New Building</h4>
@@ -67,7 +77,18 @@
             </p>
         </div>
         
-        <div id="weather">Weather</div>
+        <div id="weather">
+            <h4>Weather</h4>
+            <!--Probably use JS to make this change at some point-->
+            <img src="images/cloudy_100.png" alt="Weather">
+            <!--Isolate the Temp and Wind speed with span tag-->
+            <h3><span id="currentTemp">29</span>&deg;F</h3>
+            <h3>Cloudy</h3>
+            <section>
+                <p>Wind Speed: <span id="windSpeed">2.5</span>m/h</p>
+                <p>Wind Chill: <span id="windChill"></span></p>
+            </section>
+        </div>
         
         <div id="join">
             <p><a href="#">Join Us!</a></p>
@@ -159,5 +180,6 @@
     <script src="scripts/update_time.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/header_time.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
