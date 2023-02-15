@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    display: grid;
+    align-content: center;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+picture{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+picture img[data-src]{
+    filter: blur(0.2em);
+}
+
+picture img{
+    border: 2px solid rgb(80, 80, 80);
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
