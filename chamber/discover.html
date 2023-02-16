@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValleyofJordanHome</title>
+    <!--Icon-->
+    <link rel="icon" href="Chamber-favlogo.png">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito&display=swap" rel="stylesheet">
+    
+    <!--Style Sheets-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+<body>
+    <!--Come Join Us Tag-->
+    <!--Gets removed when not used-->
+    <!--Code in header_time.js-->
+    <section id="comeJoinUsHeader"></section>
+    <!--Header-->
+    <header>
+        <!--This is the top section of the Header-->
+        <section>
+            <img src="images/valley_of_jordan_logo.png" alt="The Valley of West Jordan Logo">
+            
+            <nav>
+                <!--Hamburger Icon here-->
+                <button id="hamburgerBtn">&#9776;</button>
+                <ul id="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section id="socialMedia">
+                <a class="socalImages" href="https://www.facebook.com/"><img src="images/facebook.png"  alt="Facebook icon"></a>
+                <a class="socalImages" href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram icon"></a>
+            </section>
+
+        </section>
+        <!--The spot for the current Date-->
+        <h2><span id="headerDate"></span></h2>
+    </header>
+
+    <!--Main-->
+    <main class="discover">
+        <!--Title-->
+        <h1>Discover The Valley</h1>
+
+        <!--Each picture element has an h2 element and then-->
+        <!--a p element to describe each one-->
+
+        <!--Welcome to Utah Sign-->
+        <h2>Utah Welcome Sign</h2>
+        <picture>
+            <img src="images/place_holder_large700.jpg" data-src="images/WelcomeToUtah_large700.jpg" alt="Utah Sign"/>
+        </picture>
+        <p>Here is the Welcome to Utah Sign! Without this great state
+            the Valley's of West and South Jordan would not exsist. 
+            Back when Utah was first founded it was nothing more than a dry
+            desert. Today it is far from a desolate desert, it is now a thriving
+            green, and growing ecosystem for both people and animals.
+            This sign helps remind people who come to Utah that their 
+            dreams are obtainable, and that their buisness will flourish!
+        </p>
+
+        <!--Great Salt Lake Pictures-->
+        <h2>The Great Salt Lake</h2>
+        <picture>
+            <img src="images/place_holder_large700.jpg" data-src="images/GreatSaltLake_large700.jpg" alt="Great Salt Lake"/>
+        </picture>
+        <picture>
+            <img src="images/place_holder_large700.jpg" data-src="images/GreatSaltLake2_large700.jpg" alt="Great Salt Lake"/>
+        </picture>
+        <p>Here are two pictures of the Great Salt Lake, a staple
+            for the state of Utah. The Great Salt Lake is where
+            tons of minerals from the rivers gets collected and 
+            contained in one spot. Thus making it salty.
+            The Jordan Valley's are a part of
+            Salt Lake City. Another cool fact, the Jordan River is one
+            of the rivers that flows into the Great Salt Lake. To us it
+            represents the relationship and importance the Jordan Valley has
+            to Salt Lake City, providing "minerals" so to speak 
+            just as the river has to the lake to give the city it's unique, "flavor".
+        </p>
+
+        <!--Capital Building-->
+        <h2>The Capital Building</h2>
+        <picture>
+            <img src="images/place_holder_large700.jpg" data-src="images/SaltLakeCapital_large700.jpg" alt="State Capital"/>
+        </picture>
+        <p>Here is another amazing attraction to the great City of Salt Lake,
+            the State Capital Building. Here is where laws are made to help provide
+            support and aid to local buisnesses in the Jordan Valley, and all over Utah.
+            This is a super valuable and special spot for us. 
+        </p>
+
+        <!--The Mountains-->
+        <h2>Many Mountains</h2>
+        <picture>
+            <img src="images/place_holder_large700.jpg" data-src="images/TheWasachMountains_large700.jpg" alt="Utah Mountains"/>
+        </picture>
+        <p>Here is a picture of the many mountains you can find here in the Jordan Valley,
+            one of which is the Wasatch Mountains. There are many different mountains that you
+            can hike on, and spend time with your family here in the Jordan Valley.
+        </p>
+
+        <!--This section is dedicated to times people visit-->
+        <section id="visitsSection">
+            <p>Number of Visits: <span id="visit"></span></p>
+            <p>Days Visited: <span id="daysVisit"></span></p>
+            <p>Average Visits a Day: <span id="aveVisits"></span></p>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <!--Top Section-->
+        <img src="images/the-valley-of-jordan-footer-logo.png" alt="The Valley of West Jordan Footer Logo">
+        
+        <section class="footerLeft">
+            <h1>The Valley of Jordan Chamber of Commerce</h1>
+            <p>West Jordan, UT</p>
+            <p>South Jordan, UT</p>
+        
+        </section>
+        <!--Fake contact info but real map-->
+
+        <section class="footerRight">
+            <p>TheValleyofJordanCham@123email.com</p>
+            <a href="https://www.google.com/maps/@40.6573723,-112.0003248,12z">Jordan Valley Map</a>
+        </section>
+
+        <!--Bottom Section-->
+        <section class="copyRight">
+            <p>&copy; <span id="moddate"></span></p>
+        </section>
+
+    </footer>
+    <!--Scripts for page-->
+    <script src="scripts/update_time.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/header_time.js"></script>
+    <script src="scripts/discover_loader.js" defer></script>
+    <script src="scripts/visits.js"></script>
+</body>
+</html>

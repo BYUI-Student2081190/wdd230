@@ -120,4 +120,14 @@
             margin-bottom: 0px;
             margin: 15px;
         }
+
+        /*discover main code*/
+        main.discover picture img{
+            width: 600px;
+        }
+
+        main.discover picture img:hover{
+            box-shadow: #5a5454 10px 9px 11px;
+            width: 610px;
+        }
 }

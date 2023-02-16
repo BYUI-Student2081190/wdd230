@@ -174,5 +174,13 @@
         display: block;
     }
     
+    /*Discover Main code*/
+    main.discover picture img{
+        width: 700px;
+    }
 
+    main.discover picture img:hover{
+        box-shadow: #5a5454 10px 9px 11px;
+        width: 710px;
+    }
 }

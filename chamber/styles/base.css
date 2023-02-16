@@ -372,3 +372,46 @@ footer h2{
 #spotlight3{
     display: none;
 }
+
+/*discover main*/
+main.discover{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+
+main.discover h1{
+    font-size: 2em;
+}
+
+main.discover h2{
+    margin-top: 1.5em;
+}
+
+main.discover picture img[data-src]{
+    filter: blur(0.5em);
+}
+
+main.discover picture img{
+    width: 200px;
+    filter: blur(0em);
+    transition: filter 0.8s;
+    margin-top: 0.9em;
+    border: 1px solid #3c3f48;
+}
+
+main.discover picture img:hover{
+    box-shadow: none;
+    width: 200px;
+}
+
+main.discover section#visitsSection{
+    margin-top: 2vh;
+    border-top: 1px solid #3c3f48;
+}
