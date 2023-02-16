@@ -15,11 +15,11 @@ picture{
 }
 
 picture img[data-src]{
-    filter: blur(0.2em);
+    filter: blur(0.3em);
 }
 
 picture img{
     border: 2px solid rgb(80, 80, 80);
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 0.9s;
 }
