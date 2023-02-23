@@ -159,7 +159,7 @@ header h2{
 
 #headerDate{
     color: #ffff;
-    font-size: 22px;
+    font-size: 18px;
     padding: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -414,4 +414,106 @@ main.discover picture img:hover{
 main.discover section#visitsSection{
     margin-top: 2vh;
     border-top: 1px solid #3c3f48;
+}
+
+/*Join Main code*/
+main.join{
+    margin: 3em;
+}
+
+main.join h1{
+    text-align: center;
+    margin-top: 1.2em;
+}
+
+/*Form code in Join*/
+main.join form fieldset{
+    margin: 1.5rem 0;
+    border: 1px solid #5f79c8;
+    border-radius: 0.8em;
+    padding: 1.3em 0.5em;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9em;
+    color: #3c3f48;
+}
+
+main.join form legend{
+    margin-left: 1em;
+    font-size: 1.1rem;
+    padding: 0;
+}
+
+main.join label.topInfo,
+main.join label.additionalInfo{
+    display: block;
+    padding-top: 1.8em;
+}
+
+main.join label.topInfo input{
+    display: block;
+    border: 1px solid #3c3f48;
+    border-radius: 0.8em;
+    padding: 0.44em;
+    width: 80%;
+}
+
+main.join label.topInfo input:required{
+    border-left: 4px solid #ff0000;
+}
+
+main.join label.topInfo input:required:valid{
+    border-left: 4px solid #40cf36;
+}
+
+main.join label.additionalInfo textarea{
+    display: block;
+    border: 1px solid #3c3f48;
+    border-radius: 0.8em;
+    padding: 0.5em 3em 3em 12px;
+    margin-top: 0.3em;
+    margin-bottom: 0.8em;
+    width: 50%;
+}
+
+main.join form fieldset.memberShipClass{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main.join form label.mss{
+    padding-top: 2em;
+}
+
+main.join form div.mssInfo{
+    padding: 0;
+}
+
+main.join form div.mssInfo{
+    color: #5f79c8;
+}
+
+main.join form input#subButton{
+    font-family: 'Nunito', sans-serif;
+    color: #ffff;
+    background-color: #5f79c8;
+    border: 1px solid #3c3f48;
+    padding: 0.8em;
+    border-radius: 0.9em;
+}
+
+main.join form input#subButton:hover{
+    color: #dadada;
+    background-color: #2f3e6d;
+}
+
+/*Thank You Main Code*/
+main.thankYou{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 8em 0
+}
+
+main.thankYou h3{
+    margin-top: 3em;
 }

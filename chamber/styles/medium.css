@@ -39,6 +39,10 @@
         padding: 15px;
         padding-right: 30vw;
     }
+
+    #headerDate{
+        font-size: 22px;
+    }
     
     /*Hamburger*/
     button{
@@ -129,5 +133,22 @@
         main.discover picture img:hover{
             box-shadow: #5a5454 10px 9px 11px;
             width: 610px;
+        }
+
+        /*Code for Main Join*/
+        main.join form fieldset.memberShipClass{
+            grid-template-columns: 1fr 1fr;
+        }
+
+        main.join form label.mss,
+        main.join form div.mssInfo{
+            padding-top: 2em;
+        }
+
+        main.join label.additionalInfo textarea{
+            padding: 0.5em 3em 3em 12px;
+            margin-top: 0.3em;
+            margin-bottom: 0.8em;
+            width: 80%;
         }
 }
