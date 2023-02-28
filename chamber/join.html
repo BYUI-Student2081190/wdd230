@@ -58,14 +58,14 @@
         <h1>Become a Member of the Chamber!</h1>
 
         <!--Add the form here-->
-        <form method="get" action="thankyou.html">
+        <form method="get" action="thankyou.html" id="form">
             <!--Add Fieldsets to split up the form-->
             <fieldset>
                 <legend>Member Information</legend>
                 <label class="topInfo">First Name* <input type="text" name="fname" required></label>
                 <label class="topInfo">Last Name* <input type="text" name="lname" required></label>
                 <label class="topInfo">Email* <input type="email" name="email" required placeholder="someone123@email.com"></label>
-                <label class="topInfo">Phone Number* <input type="tel" name="phone" required placeholder="xxxxxxxxxx"></label>
+                <label class="topInfo">Phone Number* <input type="tel" title="Must be 10 characters long, and only numbers." name="phone" required placeholder="xxxxxxxxxx" pattern="[0-9]{10}"></label>
             </fieldset>
 
             <fieldset>
@@ -73,14 +73,15 @@
                 <!--only accepts alpha characters, hyphens, and spaces
                 with a minimum of seven characters using a regular 
                 expression pattern.-->
-                <label class="topInfo">Buisness Position <input title="Only alpha characters, hyphens, and spaces. Minimum of 7 characters" id="btitle" type="text" name="btitle" minlength="7"></label>
+                <label class="topInfo">Buisness Position <input title="Only alpha characters, hyphens, and spaces. Minimum of 7 characters" id="btitle" type="text" name="btitle"></label>
+                <p id="error"></p>
                 <label class="topInfo">Buisness Name* <input title="Name of your Buisness" type="text" name="bname" required></label>
             </fieldset>
 
             <!--mss means "MemberShip Select Section"-->
             <fieldset class="memberShipClass">
                 <legend>Membership Level</legend>
-                <label class="mss"><input type="radio" name="membership" value="np"> NP Membership --- Free</label>
+                <label class="mss"><input type="radio" name="membership" value="np" checked="true"> NP Membership --- Free</label>
                 <div class="mssInfo">For non-profit orginizations, no fee.</div>
                 <label class="mss"><input type="radio" name="membership" value="bronze"> Bronze Membership --- $15.00 per month</label>
                 <div class="mssInfo">Bronze Membership: Allows Advertising on Chamber Site.</div>
@@ -132,5 +133,6 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/header_time.js"></script>
     <script src="scripts/submit_form_time.js"></script>
+    <script defer src="scripts/test_join.js"></script>
 </body>
 </html>

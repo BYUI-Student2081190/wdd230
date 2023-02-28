@@ -461,6 +461,11 @@ main.join label.topInfo input:required{
     border-left: 4px solid #ff0000;
 }
 
+main.join p#error{
+    color: #ff0000;
+    font-size: 15px;
+}
+
 main.join label.topInfo input:required:valid{
     border-left: 4px solid #40cf36;
 }
