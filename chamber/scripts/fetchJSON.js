@@ -2,7 +2,7 @@
 
 //Create a varible to hold the JSON file
 
-const dataFile = ;
+const dataFile = 'https://byui-student2081190.github.io/wdd230/chamber/data.json';
 
 //Create an async function to get the info, and
 //await a response from the site
@@ -14,5 +14,5 @@ async function GetBuisnessInfo()
     const info = await obtained.json();
 
     //Test to Display
-    console.table(info.buisnesses);
+    console.log(info.buisnesses);
 };
