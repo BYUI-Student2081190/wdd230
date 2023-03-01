@@ -1,67 +1,78 @@
-{
-    "buisnesses" : [
-        {
-            "name" : "The Ridge Golf Club",
-            "address" : "5055 Westridge Blvd, West Valley City, UT 84118",
-            "number" : "+1 (801) 966-4653",
-            "site" : "http://www.golftheridgegc.com/",
-            "logo" : "https://www.golftheridgegc.com/images/logo/logo-web.png"
-        },
-        {
-            "name" : "Utah Olympic Oval",
-            "address" : "5662 Cougar Ln, Kearns, UT 84118",
-            "number" : "+1 (801) 968-6825",
-            "site" : "https://utaholympiclegacy.org/location/utah-olympic-oval/",
-            "logo" : "https://utaholympiclegacy.org/wp-content/themes/some-like-it-neat/assets/images/logomark-white.png"
-        },
-        {
-            "name" : "Nickel Mania",
-            "address" : "3245 W 7800 S Suite A, West Jordan, UT 84088",
-            "number" : "+1 (385) 274-2828",
-            "site" : "http://nickelmaniagames.com/",
-            "logo" : "https://nickelmaniaarcade.com/wp-content/uploads/2022/11/nm_logo-300x82.png"
-        },
-        {
-            "name" : "JCW's The Burger Boys",
-            "address" : "10660 S River Front Pkwy, South Jordan, UT 84095",
-            "number" : "+1 (801) 981-8873",
-            "site" : "http://www.jcws.com/",
-            "logo" : "https://www.jcws.com/images/jcws_logo-03-03-03-03.png?crc=406844201"
-        },
-        {
-            "name" : "Harmons Grocery",
-            "address" : "10507 S Redwood Rd, South Jordan, UT 84095",
-            "number" : "+1 (801) 446-9984",
-            "site" : "http://www.harmonsgrocery.com/",
-            "logo" : "https://www.harmonsgrocery.com/app/themes/wp_harmons_theme/dist/images/logo-desktop.png"
-        },
-        {
-            "name" : "Game Haven",
-            "address" : "3245 W 7800 S, West Jordan, UT 84088",
-            "number" : "+1 (801) 304-4263",
-            "site" : "https://yourgamehaven.com/west-jordan/?utm_source=gmb&utm_medium=organic",
-            "logo" : "https://yourgamehaven.com//wp-content/uploads/2022/05/Game_Haven_logo-e1652128702698.png"
-        },
-        {
-            "name" : "Black Bear Diner",
-            "address" : "7238 S Plz Ctr Dr Bldg E, West Jordan, UT 84084",
-            "number" : "+1 (801) 282-0077",
-            "site" : "https://blackbeardiner.com/location/west-jordan/",
-            "logo" : "https://blackbeardiner.com/wp-content/uploads/2019/11/Black-Bear-Diner-Updated-Logo-With-Trademark.png"
-        },
-        {
-            "name" : "Altitude Trampoline Park",
-            "address" : "3813 Center View Way, West Jordan, UT 84084",
-            "number" : "+1 (385) 255-9188",
-            "site" : "https://altitudewestjordan.com/",
-            "logo" : "https://altitudewestjordan.com/wp-content/uploads/2018/09/Header_Logo.png"
-        },
-        {
-            "name" : "Cinemark 24 Jordan Landing and XD",
-            "address" : "7301 S Jordan Lndg Blvd, West Jordan, UT 84084",
-            "number" : "+1 (801) 282-8847",
-            "site" : "https://www.cinemark.com/theatres/ut-west-jordan/cinemark-24-jordan-landing-and-xd?utm_medium=organic&utm_source=gmb&utm_campaign=local_listing_theater&utm_content=GMB_listing&y_source=1_MTc0OTMxMDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
-            "logo" : "https://www.cinemark.com/images/cinemarkLogo.png"
-        }
-    ]
-}
+[
+    {
+        "buisnesses" : [
+            {
+                "name" : "The Ridge Golf Club",
+                "address" : "5055 Westridge Blvd, West Valley City, UT 84118",
+                "number" : "+1 (801) 966-4653",
+                "site" : "http://www.golftheridgegc.com/",
+                "logo" : "https://www.golftheridgegc.com/images/logo/logo-web.png",
+                "membership" : "Silver"
+            },
+            {
+                "name" : "Utah Olympic Oval",
+                "address" : "5662 Cougar Ln, Kearns, UT 84118",
+                "number" : "+1 (801) 968-6825",
+                "site" : "https://utaholympiclegacy.org/location/utah-olympic-oval/",
+                "logo" : "https://utaholympiclegacy.org/wp-content/themes/some-like-it-neat/assets/images/logomark-white.png",
+                "membership" : "Gold"
+            },
+            {
+                "name" : "Nickel Mania",
+                "address" : "3245 W 7800 S Suite A, West Jordan, UT 84088",
+                "number" : "+1 (385) 274-2828",
+                "site" : "http://nickelmaniagames.com/",
+                "logo" : "https://nickelmaniaarcade.com/wp-content/uploads/2022/11/nm_logo-300x82.png",
+                "membership" : "Free"
+            },
+            {
+                "name" : "JCW's The Burger Boys",
+                "address" : "10660 S River Front Pkwy, South Jordan, UT 84095",
+                "number" : "+1 (801) 981-8873",
+                "site" : "http://www.jcws.com/",
+                "logo" : "https://www.jcws.com/images/jcws_logo-03-03-03-03.png?crc=406844201",
+                "membership" : "Bronze"
+            },
+            {
+                "name" : "Harmons Grocery",
+                "address" : "10507 S Redwood Rd, South Jordan, UT 84095",
+                "number" : "+1 (801) 446-9984",
+                "site" : "http://www.harmonsgrocery.com/",
+                "logo" : "https://www.harmonsgrocery.com/app/themes/wp_harmons_theme/dist/images/logo-desktop.png",
+                "membership" : "Gold"
+            },
+            {
+                "name" : "Game Haven",
+                "address" : "3245 W 7800 S, West Jordan, UT 84088",
+                "number" : "+1 (801) 304-4263",
+                "site" : "https://yourgamehaven.com/west-jordan/?utm_source=gmb&utm_medium=organic",
+                "logo" : "https://yourgamehaven.com//wp-content/uploads/2022/05/Game_Haven_logo-e1652128702698.png",
+                "membership" : "Silver"
+            },
+            {
+                "name" : "Black Bear Diner",
+                "address" : "7238 S Plz Ctr Dr Bldg E, West Jordan, UT 84084",
+                "number" : "+1 (801) 282-0077",
+                "site" : "https://blackbeardiner.com/location/west-jordan/",
+                "logo" : "https://blackbeardiner.com/wp-content/uploads/2019/11/Black-Bear-Diner-Updated-Logo-With-Trademark.png",
+                "membership" : "Gold"
+            },
+            {
+                "name" : "Altitude Trampoline Park",
+                "address" : "3813 Center View Way, West Jordan, UT 84084",
+                "number" : "+1 (385) 255-9188",
+                "site" : "https://altitudewestjordan.com/",
+                "logo" : "https://altitudewestjordan.com/wp-content/uploads/2018/09/Header_Logo.png",
+                "membership" : "Silver"
+            },
+            {
+                "name" : "Cinemark 24 Jordan Landing and XD",
+                "address" : "7301 S Jordan Lndg Blvd, West Jordan, UT 84084",
+                "number" : "+1 (801) 282-8847",
+                "site" : "https://www.cinemark.com/theatres/ut-west-jordan/cinemark-24-jordan-landing-and-xd?utm_medium=organic&utm_source=gmb&utm_campaign=local_listing_theater&utm_content=GMB_listing&y_source=1_MTc0OTMxMDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+                "logo" : "https://www.cinemark.com/images/cinemarkLogo.png",
+                "membership" : "Gold"
+            }
+        ]
+    }
+]
