@@ -216,6 +216,7 @@ footer p{
 
 footer a{
     font-size: 17px;
+    margin: 0.5em;
 }
 
 footer a:hover{
@@ -521,4 +522,20 @@ main.thankYou{
 
 main.thankYou h3{
     margin-top: 3em;
+}
+
+/*Directory Code*/
+
+
+main.directory div.selectStyle{
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+
+main.directory div.selectStyle button{
+    padding: 1rem;
+    font-size: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
 }

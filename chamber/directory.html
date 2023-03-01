@@ -37,7 +37,7 @@
                 <ul id="navigation">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html">Directory</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -54,11 +54,17 @@
     </header>
 
     <!--Main-->
-    <main class="thankYou">
-        <h1>Thank you for becoming a Member of the Chamber!</h1>
-
-        <h3>You will get an email of approval in three days.</h3>
-
+    <main class="directory">
+        <!--Also create two buttons to help you-->
+        <div class="selectStyle">
+            <button id="imgButton">&#9635; Grid</button>
+            <button id="listButton">&#9636; List</button>
+        </div>
+        <!--Create a line across-->
+        <hr>
+        <!--Create a div to hold the cards-->
+        <div class="blocks"></div>
+        <div class="list"></div>
     </main>
 
     <!--Footer-->
@@ -90,5 +96,6 @@
     <script src="scripts/update_time.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/header_time.js"></script>
+    <script src="scripts/fetchJSON.js"></script>
 </body>
 </html>
