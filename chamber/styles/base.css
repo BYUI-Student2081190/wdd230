@@ -525,7 +525,9 @@ main.thankYou h3{
 }
 
 /*Directory Code*/
-
+main.directory{
+    margin: 1em;
+}
 
 main.directory div.selectStyle{
     display: flex;
@@ -534,8 +536,69 @@ main.directory div.selectStyle{
 }
 
 main.directory div.selectStyle button{
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 1em;
     margin-left: 3em;
     margin-right: 3em;
+    font-family: 'Nunito', sans-serif;
+    color: #3c3f48;
+    background-color: #ffff;
+    border: 1px solid #3c3f48;
+}
+
+main.directory div.selectStyle button:hover{
+    background-color: #bcb8b8;
+    color: #ffff;
+}
+
+main.directory div.blocks{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    justify-content: center;
+}
+
+main.directory div.blocks section{
+    background-color: #87a2f6;
+    margin: 1em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    border: 1px solid #3c3f48;
+}
+
+main.directory div.blocks section img{
+    margin: 1em;
+}
+
+/*Now the list*/
+main.directory div.list{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main.directory div.list ul:nth-child(odd){
+    background-color: #87a2f6;
+}
+
+main.directory div.list ul{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #3c3f48;
+}
+
+main.directory div.list ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    color: #3c3f48;
+}
+
+main.directory div.list ul a{
+    font-size: 17px;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
 }

@@ -186,4 +186,10 @@
 
     /*Code for main join*/
     /*Medium covers Large nicely on this page*/
+
+    /*Code for directory*/
+    main.directory div.blocks{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
 }

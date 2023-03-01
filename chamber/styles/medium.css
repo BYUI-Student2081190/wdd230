@@ -151,4 +151,24 @@
             margin-bottom: 0.8em;
             width: 80%;
         }
+
+        /*Code for directory*/
+        main.directory div.blocks{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        }
+
+        main.directory div.list ul{
+            display: flex;
+            flex-direction: row;
+        }
+
+        main.directory div.list ul li{
+            margin: 0px 10px 0px 10px;
+        }
+
+        main.directory div.list ul a{
+            margin: 0px 10px 0px 10px;
+        }
+
 }
