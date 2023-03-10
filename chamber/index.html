@@ -80,13 +80,14 @@
         <div id="weather">
             <h4>Weather</h4>
             <!--Probably use JS to make this change at some point-->
-            <img src="images/cloudy_100.png" alt="Weather">
+            <img id="weatherImg">
             <!--Isolate the Temp and Wind speed with span tag-->
-            <h3><span id="currentTemp">29</span>&deg;F</h3>
-            <h3>Cloudy</h3>
+            <h3><span id="currentTemp"></span>&deg;F</h3>
+            <h3><span id="descript"></span></h3>
             <section>
-                <p>Wind Speed: <span id="windSpeed">2.5</span>m/h</p>
+                <p>Wind Speed: <span id="windSpeed"></span>m/h</p>
                 <p>Wind Chill: <span id="windChill"></span></p>
+                <h2>Weather provided by OpenWeather</h2>
             </section>
         </div>
         
@@ -167,8 +168,10 @@
 
         <section class="footerRight">
             <p>TheValleyofJordanCham@123email.com</p>
+            <p>Resources:</p>
             <a href="https://www.google.com/maps/@40.6573723,-112.0003248,12z">Jordan Valley Map</a>
             <a href="data.json">data.json</a>
+            <a href="https://openweathermap.org/">OpenWeather.org</a>
         </section>
 
         <!--Bottom Section-->

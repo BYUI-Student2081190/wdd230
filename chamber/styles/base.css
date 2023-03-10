@@ -299,11 +299,21 @@ footer h2{
 
 #weather{
     padding: 0;
-    padding-bottom: 10em;
+    padding-bottom: 11em;
+}
+
+/*New CSS rule to weather description*/
+#descript{
+    text-transform: capitalize;
 }
 
 #weather section{
     border-top: 2px solid #ffff;
+}
+
+#weather h2{
+    font-size: .7em;
+    color: #ffff;
 }
 
 #join a{
