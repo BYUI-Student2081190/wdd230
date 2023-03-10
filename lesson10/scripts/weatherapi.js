@@ -7,6 +7,7 @@ const capDescription = document.querySelector("figcaption");
 //Now create a varible to hold the api call to the
 //weather site.
 //This should work.
+//Test comment to see if this got pushed.
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&appid=a32e387524432e5aff27fccd2f59383f&units=imperial"
 
 //Create a function to grab the info from the JSON
