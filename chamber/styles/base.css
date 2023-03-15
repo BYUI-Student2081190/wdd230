@@ -52,6 +52,9 @@ header{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 50px;
     background-color: #5f79c8;
+    border-top: 2px solid #3d3d2c;
+    border-bottom: 2px solid #3d3d2c;
+    padding-bottom: 0;
 }
 
 header section{
@@ -100,7 +103,6 @@ nav{
     margin-right: 2vw;
 }
 
-
 nav ul.open{
     display: block;
 }
@@ -147,6 +149,13 @@ nav ul li a:hover{
 header button{
     display: block;
     font-size: 45px;
+    color: #3c3f48;
+}
+
+header button.open{
+    font-family: 'Nunito', sans-serif;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
 }
 
 /*Current Date part of Header*/
@@ -175,6 +184,8 @@ footer{
     display: flex;
     flex-direction: column;
     background-color:#5f79c8;
+    border-top: 2px solid #3d3d2c;
+    border-bottom: 2px solid #3d3d2c;
 }
 
 footer img{
@@ -249,6 +260,7 @@ footer h2{
     width: 15em;
     height: 200px;
     align-self: center;
+    justify-self: center;
     margin: 0px;
     margin-top: 5px;
     border: 2px solid #3c3f48;
