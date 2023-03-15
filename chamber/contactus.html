@@ -37,9 +37,9 @@
                 <ul id="navigation">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li class="active"><a href="directory.html">Directory</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li class="active"><a href="contactus.html">Contact Us</a></li>
                 </ul>
             </nav>
 
@@ -54,17 +54,45 @@
     </header>
 
     <!--Main-->
-    <main class="directory">
-        <!--Also create two buttons to help you-->
-        <div class="selectStyle">
-            <button id="imgButton">&#9635; Grid</button>
-            <button id="listButton">&#9636; List</button>
-        </div>
-        <!--Create a line across-->
-        <hr>
-        <!--Create a div to hold the cards-->
-        <div class="blocks"></div>
-        <div class="list"></div>
+    <main class="contactUs">
+        <h1>Contact Us</h1>
+        <!--Contact info form-->
+        <form method="dialog" id="contactForm">
+            <fieldset>
+                <legend>Your Contact Info</legend>
+                <label class="contactInfo">First Name* <input type="text" name="fname" required></label>
+                <label class="contactInfo">Last Name* <input type="text" name="lname" required></label>
+                <label class="contactInfo">Email* <input type="email" name="email" required placeholder="someone123@email.com"></label>
+                <label class="contactInfo">Phone Number <input type="tel" title="Must be 10 characters long, and only numbers." name="phone" placeholder="xxxxxxxxxx" pattern="[0-9]{10}"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Reason</legend>
+                <label class="contactReason"><textarea type="text" name="Contact Reason"></textarea></label>
+            </fieldset>
+
+            <input type="submit" value="Contact Us" id="contactSubBut">
+
+        </form>
+        <!--Our fake contact information section-->
+        <section>
+            <h2>Contact Us</h2>
+
+            <h3>Phone Number</h3>
+            <p>+1-(111) 111-1111</p>
+
+            <h3>Email</h3>
+            <p>TheValleyofJordanCham@123email.com</p>
+
+            <h3>Address</h3>
+            <p>The Valley of Jordan Chamber, 999 SomeWhere Lane, Salt Lake City, UT</p>
+
+            <h3>Hours</h3>
+            <p>Mon-Fri: 8:00AM - 4:00PM</p>
+            <p>Sat: 8:00AM - 1:00PM</p>
+            <p>Sun: Closed</p>
+        </section>
+
     </main>
 
     <!--Footer-->
@@ -98,6 +126,6 @@
     <script src="scripts/update_time.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/header_time.js"></script>
-    <script src="scripts/fetchJSON.js"></script>
+    <script src="scripts/contactus.js"></script>
 </body>
 </html>
