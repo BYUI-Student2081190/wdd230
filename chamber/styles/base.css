@@ -355,12 +355,12 @@ footer h2{
     margin-right: auto;
     margin-left: auto;
     padding-top: 29px;
-    padding-bottom: 241px;
+    padding-bottom: 325px;
 }
 
 #spotlight div{
     width: 13em;
-    height: 206px;
+    height: 240px;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
@@ -369,6 +369,7 @@ footer h2{
 
 #spotlight div img{
     margin-bottom: 10px;
+    width: 67px;
 }
 
 #spotlight div p{
@@ -380,6 +381,11 @@ footer h2{
 #spotlight div a{
     font-size: 10px;
     margin: 0px;
+    margin-top: 10px;
+}
+
+#spotlight div a:hover{
+    text-decoration: underline;
 }
 
 #spotlight div section{
@@ -389,7 +395,7 @@ footer h2{
 #spotlight div section p{
     font-size: 10px;
     margin: 0;
-    margin-top: 5px;
+    margin-top: 10px;
     font-style: normal;
 }
 
